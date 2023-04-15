@@ -15,7 +15,7 @@ void selection_sort(int *array, size_t size)
 	{
 		j = i + 1;
 		tmp = i;
-		while(j < size)
+		while (j < size)
 		{
 			if (array[j] < array[tmp])
 				tmp = j;
@@ -30,6 +30,5 @@ void selection_sort(int *array, size_t size)
 		}
 		i++;
 	}
-	
 }
 
