@@ -11,7 +11,7 @@ void insertion_sort_list(listint_t **list)
 
 	node = *list;
 
-	if (!list)
+	if (*list == NULL)
 		return;
 	while (node)
 	{
